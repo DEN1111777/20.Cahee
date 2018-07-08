@@ -16,10 +16,28 @@
 	}
 
 	&--orange {
-	background-color: rgb(255, 96, 51);
+	background-color: #ff6033;
 
 		&:hover {
-			background-color: lighten(rgb(255, 96, 51), 5%);
+			background-color: lighten(#ff6033, 5%);
+		}
+	}
+
+	&--blue {
+	background-color: #5585a2;
+
+		&:hover {
+			background-color: lighten(#5585a2, 5%);
+		}
+	}
+
+	&--subscribe {
+		min-width: 170px;
+		background-color: #96b92c;
+		border: none;
+
+		&:hover {
+			background-color: lighten(#96b92c, 5%);
 		}
 	}
 }
