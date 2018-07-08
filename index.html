@@ -9,16 +9,16 @@
 </head>
 <body>
 	<header class="header">
-		<div class="container  hero">
+		<div class="container  hero  container__hero">
 			<div class="hero__head">
 				<div class="logo">
-					<p  class="logo__text">Cahee</p>
+					<a href="#" class="logo__text">Cahee</a>
 				</div>
 				<div class="nav">
 					<ul class="nav__list">
 						<li class="nav__list--item  uppercase"><a class="nav__list--link" href="#">Home</a></li>
-						<li class="nav__list--item  uppercase"><a class="nav__list--link" href="#">About</a></li>
-						<li class="nav__list--item  uppercase"><a class="nav__list--link" href="#">Servises</a></li>
+						<li class="nav__list--item  uppercase"><a class="nav__list--link" href="#about">About</a></li>
+						<li class="nav__list--item  uppercase"><a class="nav__list--link" href="#services">Servises</a></li>
 						<li class="nav__list--item  uppercase"><a class="nav__list--link" href="#">Gallery</a></li>
 						<li class="nav__list--item  uppercase"><a class="nav__list--link" href="#">Blog</a></li>
 						<li class="nav__list--item  uppercase"><a class="nav__list--link" href="#">Contact</a></li>
@@ -26,16 +26,56 @@
 				</div>
 			</div>
 			<div class="hero__content">
-				<h2 class="hero__content--title">Fresh Life</h2>
+				<h2 class="hero__content--title">Fresh Life
+				</h2>
 				<p class="hero__content--text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-				<a href="#" class="hero__content--btn  uppercase">GET FREE NOW</a>
+				<a href="#" class="content-btn  content-btn--orange">GET FREE NOW</a>
 			</div>
-			<a href="#" class="hero__scroll">
-				<img src="img/scroll.png" alt="scroll">
+			<a href="#about" class="hero__scroll-btn  scroll-btn">
+				scroll button
 			</a>
 		</div>	
 	</header>
+	<main>
+		<section class="section  about  section__about"  id="about">
+			<div class="container  container__about">
+				<div class="about__content">
+					<h2 class="section__title  section__title--white">
+						About Us
+					</h2>
+					<p class="section__text  section__text--white">
+						Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+					</p>
+					<p class="section__text  section__text--white">
+						Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="section  services  section__services" id="services">
+			<div class="container  container__services">
+				<div class="services__content">
+					<h2 class="section__title  section__title--white">
+						Our Services
+					</h2>
+					<ul  class="services__list">
+						<li class="services__list-item">
+							<a class="services__list-link  services__list-link--1" href="#">Online Shopping</a>
+						</li>
+						<li class="services__list-item">
+							<a class="services__list-link  services__list-link--2" href="#">Quality Product</a>
+						</li>
+						<li class="services__list-item">
+							<a class="services__list-link  services__list-link--3" href="#">Domestic & International Delivery</a>
+						</li>
+						<li class="services__list-item">
+							<a class="services__list-link  services__list-link--4" href="#">Well Organized</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
 	
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+.content-btn {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 15px 0;
+	min-width: 200px;
+	min-height: 55px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	font-size: 20px;
+	color: $white-text;
+	text-align: center;
+	text-transform: uppercase;
+	
+	&:active {
+		transform: scale(0.9);
+	}
+
+	&--orange {
+	background-color: rgb(255, 96, 51);
+
+		&:hover {
+			background-color: lighten(rgb(255, 96, 51), 5%);
+		}
+	}
+}
