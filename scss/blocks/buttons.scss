@@ -37,7 +37,15 @@
 		border: none;
 
 		&:hover {
-			background-color: lighten(#96b92c, 5%);
+			background-color: lighten(#f72b3b, 5%);
+		}
+	}
+
+	&--red {
+	background-color: #f72b3b;
+
+		&:hover {
+			background-color: lighten(#f72b3b, 5%);
 		}
 	}
 }
