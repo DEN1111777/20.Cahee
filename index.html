@@ -89,7 +89,7 @@
 					<li class="gallery__item  gallery__photo  gallery__photo--1">
 						<img class="image" src="img/gallery-1.jpg" alt="gallery_image">
 					</li>
-					<li class="gallery__item">
+					<li class="gallery__item  gallery__item--sub">
 						<ul class="gallery__images--sub">
 							<li class="gallery__sub-item  gallery__photo  gallery__photo--2.1">
 								<img src="img/gallery-2.1.jpg" alt="gallery_image">
@@ -133,7 +133,7 @@
 					<h2 class="section__title">
 						Blog
 					</h2>
-					<p class="section__text  section__text">
+					<p class="section__text">
 						Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
 					</p>
 				</div>
@@ -165,7 +165,46 @@
 				</div>
 			</div>
 		</section>
+		<section class="section  contact  section__contact"  id="contact">
+			<div class="container  container__contact">
+				<div class="contact__content">
+					<h2 class="section__title">
+						Contact
+					</h2>
+					<p class="section__text">
+						For new projects, ideas, business or anything
+						you'd like to discuss, contact with me!
+					</p>
+				</div>
+				<div class="contact--wrapper">
+					<form class="contact__forms" action="#" method="post">
+						<input class="contact__input" type="text" required placeholder="Name...">
+						<input class="contact__input" type="text" required placeholder="Your email...">
+						<input class="contact__input" type="number" placeholder="Your phone number...">
+						<textarea class="contact__input  contact__input--textarea" type="textarea" required placeholder="Your messge..."></textarea> 
+						<input class="hidden" type="submit" value="SUBMIT">
+					</form>
+					<div class="contact__information">
+						<dl>
+							<dt class="contact__information--termin  uppercase">ADDRESS</dt>
+								<dd class="contact__information--description">123 City name, Street, City, Country</dd>
+							<dt class="contact__information--termin  uppercase">EMAIL</dt>
+								<dd class="contact__information--description">cahee@domain.com</dd>
+							<dt class="contact__information--termin  uppercase">PHONE</dt>
+								<dd class="contact__information--description">+012 345 6789</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
+	<footer>
+		<div class="container  container__footer">
+			<p>© 2015 Company. All right reserved.</p>
+			<p class="logo__text  logo__text--footer">Cahee</p>
+			<p>Made with <span>love</span> by Auskteez</p>
+		</div>
+	</footer>
 	
 </body>
 </html>
